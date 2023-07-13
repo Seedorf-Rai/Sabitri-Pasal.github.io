@@ -58,3 +58,150 @@
 .hero-des p{
     line-height: 28px;
 }
+.slick-next:before, .slick-prev:before {
+    font-family: slick;
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: black !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.your-class{
+    height: 250px;
+}
+.item-card{
+    width: 110px !important;
+    height: 207px !important;
+    background-color:#413D3D;
+    border-radius: 51% 49% 47% 51% / 26% 26% 26% 26%;
+    margin-right: 14px;
+    margin-left: 15px;
+}
+.item-card p{
+    color: #EBA219;
+    font-size: 15px;
+    position: relative;
+    left: 30px;
+    top: 20px;
+}
+.circle{
+    width: 100px;
+    height: 50%;
+    background-color: #fff;
+    border-radius: 50%;
+    position: relative;
+    left: 4.7px;
+    top: 10px;
+    background-image: url(https://images.unsplash.com/photo-1625220194771-7ebdea0b70b9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
+    background-position: center center;
+    background-size: contain;
+}
+.item-card-1{
+    width: 110px !important;
+    height: 207px !important;
+    background-color:#413D3D;
+    border-radius: 51% 49% 47% 51% / 26% 26% 26% 26%;
+    margin-right: 14px;
+    margin-left: 15px;
+}
+.item-card-1 p{
+    color: #EBA219;
+    font-size: 15px;
+    position: relative;
+    left: 30px;
+    top: 20px;
+}
+.item-card-1 .circle{
+        width: 100px;
+        height: 50%;
+        background-color: #fff;
+        border-radius: 50%;
+        position: relative;
+        left: 4.7px;
+        top: 10px;
+        background-image: url(https://images.unsplash.com/photo-1555126634-323283e090fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=464&q=80);
+        background-position: center center;
+        background-size: contain;
+}
+.item-card-2{
+    width: 110px !important;
+    height: 207px !important;
+    background-color:#F0A302;
+    border-radius: 51% 49% 47% 51% / 26% 26% 26% 26%;
+    margin-right: 14px;
+    margin-left: 15px;
+}
+.item-card-2 p{
+    color: #413D3D;
+    font-size: 15px;
+    position: relative;
+    left: 30px;
+    top: 20px;
+}
+.item-card-2 .circle{
+        width: 100px;
+        height: 50%;
+        background-color: #fff;
+        border-radius: 50%;
+        position: relative;
+        left: 4.7px;
+        top: 10px;
+        background-image: url(https://images.pexels.com/photos/7363680/pexels-photo-7363680.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+        background-position: center center;
+        background-size: contain;
+}
+.item-card-3{
+    width: 110px !important;
+    height: 207px !important;
+    background-color:#413D3D;
+    border-radius: 51% 49% 47% 51% / 26% 26% 26% 26%;
+    margin-right: 14px;
+    margin-left: 15px;
+}
+.item-card-3 p{
+    color: #EBA219;
+    font-size: 15px;
+    position: relative;
+    left: 15px;
+    top: 20px;
+}
+.item-card-3 .circle{
+        width: 100px;
+        height: 50%;
+        background-color: #fff;
+        border-radius: 50%;
+        position: relative;
+        left: 4.7px;
+        top: 10px;
+        background-image: url(https://images.pexels.com/photos/3926135/pexels-photo-3926135.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+        background-position: center center;
+        background-size: contain;
+}
+.item-card-4{
+    width: 110px !important;
+    height: 207px !important;
+    background-color:#F0A302;
+    border-radius: 51% 49% 47% 51% / 26% 26% 26% 26%;
+    margin-right: 14px;
+    margin-left: 15px;
+}
+.item-card-4 p{
+    color: #413D3D;
+    font-size: 15px;
+    position: relative;
+    left: 36px;
+    top: 20px;
+}
+.item-card-4 .circle{
+        width: 100px;
+        height: 50%;
+        background-color: #fff;
+        border-radius: 50%;
+        position: relative;
+        left: 4.7px;
+        top: 10px;
+        background-image: url(https://images.pexels.com/photos/17473023/pexels-photo-17473023/free-photo-of-indian-masala-tea.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+        background-position: center center;
+        background-size: contain;
+}
