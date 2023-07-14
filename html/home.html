@@ -79,8 +79,8 @@
  </div>
  <!-- Hero Section Ends -->
 
-  <div class="container">
-    <div class="row">
+  <div class="container py-3">
+    <div class="row py-1">
        <div class="col-md-4">
         <div class="your-class">
           <div class="item-card-1">
@@ -126,10 +126,48 @@
         </div>
        </div>
        <div class="col-md-1"></div>
-       <div class="col-md-7"></div>
+       <div class="col-md-7 f-box">
+        <div class="food-box">
+          <p>Delicious Pork and Chicken Noodles</p>
+        </div>
+        <div class="food-box-2">
+           <p>Juicy Pork Momo</p>
+        </div>
+       </div>
     </div>
   </div>
-
+  <div class="container-fluid menu py-5">
+     <h1 class="menu-h">Check&nbsp&nbsp<span class="hero2">Our</span>&nbsp&nbsp<span class="menu-sp">Menu</span></h1>
+     <div class="container py-5">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="menu-card-1">
+            <img class="img-fluid menu-img" src="https://images.pexels.com/photos/2664216/pexels-photo-2664216.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+            <p class="menu-text">
+              Thukpa
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="menu-card-2">
+            <img class="img-fluid menu-img" src="https://images.pexels.com/photos/5409027/pexels-photo-5409027.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+            <p class="menu-text">
+              Noodle Soup
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="menu-card-3">
+            <img class="img-fluid menu-img" src="https://images.pexels.com/photos/7363685/pexels-photo-7363685.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+            <p class="menu-text">
+              Pork Momo
+            </p>
+          </div>
+        </div>
+       </div>
+     </div>
+     <p>sdv</p>
+  </div>
 <!-- Bootstrap -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
@@ -141,7 +179,8 @@
     $('.your-class').slick({
       slidesToShow: 3,
   slidesToScroll: 1,
-  autoplay: false,
+  autoplay: true,
+  autoplaySpeed: 500,
   autoplaySpeed: 2000,
     });
   });

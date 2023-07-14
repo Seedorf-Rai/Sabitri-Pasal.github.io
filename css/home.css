@@ -205,3 +205,182 @@
         background-position: center center;
         background-size: contain;
 }
+.f-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.food-box{
+    position: relative;
+    background-image: url(https://images.pexels.com/photos/884600/pexels-photo-884600.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    width: 340px;
+    height: 230px;
+    background-color:red;
+    background-size: cover;
+    background-position: center ;
+    background-repeat: no-repeat;
+    border-radius: 35px;
+    box-shadow: -11px -70px 34px -18px rgba(0,0,0,0.76) inset;
+-webkit-box-shadow: -11px -70px 34px -18px rgba(0,0,0,0.76) inset;
+-moz-box-shadow: -11px -70px 34px -18px rgba(0,0,0,0.76) inset;
+transition: .5s;
+    /* box-shadow: -11px -54px 47px -30px rgba(0,0,0,0.76) inset;
+-webkit-box-shadow: -11px -54px 47px -30px rgba(0,0,0,0.76) inset;
+-moz-box-shadow: -11px -54px 47px -30px rgba(0,0,0,0.76) inset; */
+
+}
+.food-box-2{
+    position: relative;
+    background-image: url(https://images.pexels.com/photos/13072972/pexels-photo-13072972.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    width: 340px;
+    height: 230px;
+    background-color:red;
+    background-size: cover;
+    background-position: center ;
+    background-repeat: no-repeat;
+    border-radius: 35px;
+    box-shadow: -11px -70px 34px -18px rgba(0,0,0,0.76) inset;
+-webkit-box-shadow: -11px -70px 34px -18px rgba(0,0,0,0.76) inset;
+-moz-box-shadow: -11px -70px 34px -18px rgba(0,0,0,0.76) inset;
+transition: .5s;
+}
+.food-box p{
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+    transition: .5s;
+}
+.food-box-2 p{
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 30%;
+    transition: .5s;
+}
+.food-box:hover{
+    box-shadow: -11px -37px 57px 10px rgba(0,0,0,0.78) inset;
+-webkit-box-shadow: -11px -37px 57px 10px rgba(0,0,0,0.78) inset;
+-moz-box-shadow: -11px -37px 57px 10px rgba(0,0,0,0.78) inset;
+}
+.food-box:hover p{
+    position: absolute;
+    bottom: 20px;
+    left: 15px;
+}
+.food-box-2:hover{
+    box-shadow: -11px -37px 57px 10px rgba(0,0,0,0.78) inset;
+-webkit-box-shadow: -11px -37px 57px 10px rgba(0,0,0,0.78) inset;
+-moz-box-shadow: -11px -37px 57px 10px rgba(0,0,0,0.78) inset;
+}
+.food-box-2:hover p{
+    position: absolute;
+    bottom: 20px;
+    left: 30%;
+}
+.menu{
+    background-color: black;
+}
+.menu h1{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+}
+.menu-sp{
+    color: #EBA219;
+}
+/* .menu-h{
+    background: #0B0A0B;
+    padding: 15px 40px;
+    width: 400px;
+   color: #fff;
+   border-radius: 20px;
+}
+.menu-sp{
+    color: #F0A302;
+}
+.arrow{
+    font-size: 70px !important;
+    margin-left: 10px;
+}
+.arr-sp{
+    font-size: 70px !important;
+     color: #F0A302 ;
+} */
+.menu-card-1{
+    width: 320px;
+    height: 370px;
+    background-color: #DDDCDC;
+    border-radius: 30px;
+    overflow: hidden;
+    transform: rotate(25deg);
+    position: relative;
+    left: 15%;
+    animation: tilt 4s ease-in-out 0s 1  ;
+}
+@keyframes tilt{
+    0%{
+    transform: rotate(25deg);
+    }
+    50%{
+    transform: rotate(-25deg);
+    }
+    100%{
+    transform: rotate(25deg);
+    }
+}
+.menu-img{
+  width: 300px;
+  object-fit: cover;
+  height: 280px !important;
+  position: relative;
+  top: 9px;
+  left: 9.5px;
+  border-radius: 30px;
+}
+.menu-text{
+    font-size: 30px;
+    font-weight: 700;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+.menu-card-2{
+    width: 320px;
+    height: 370px;
+    background-color: #DDDCDC;
+    border-radius: 30px;
+    overflow: hidden;
+    /* transform: rotate(25deg); */
+    position: relative;
+    left: 15%;
+    top: 20%;
+}
+.menu-card-3{
+    width: 320px;
+    height: 370px;
+    background-color: #DDDCDC;
+    border-radius: 30px;
+    overflow: hidden;
+    transform: rotate(-25deg);
+    position: relative;
+    left: 13%;
+    /* top: 20%; */
+    animation: tilt2 4s ease-in-out 0s 1  ;
+}
+@keyframes tilt2{
+    0%{
+        transform: rotate(-25deg);
+        }
+        50%{
+        transform: rotate(25deg);
+        }
+        100%{
+        transform: rotate(-25deg);
+        }
+}
