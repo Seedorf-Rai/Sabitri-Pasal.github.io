@@ -321,7 +321,7 @@ transition: .5s;
     transform: rotate(25deg);
     position: relative;
     left: 15%;
-    animation: tilt 4s ease-in-out 0s 1  ;
+    animation: tilt 4s ease-in-out 0s 3  ;
 }
 @keyframes tilt{
     0%{
@@ -371,7 +371,7 @@ transition: .5s;
     position: relative;
     left: 13%;
     /* top: 20%; */
-    animation: tilt2 4s ease-in-out 0s 1  ;
+    animation: tilt2 4s ease-in-out 0s 3  ;
 }
 @keyframes tilt2{
     0%{
