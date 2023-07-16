@@ -55,3 +55,71 @@ a{
 .nav-link:hover{
     color: #FFAB01 !important;
 }
+.footer{
+    background-color: #0B0A0B;
+}
+.logo-3{
+    text-decoration: none;
+    font-size: 23px;
+    color: white;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+.white{
+    text-decoration: none;
+    font-size: 23px;
+    color: white !important;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+.footer-link{
+    display: flex;
+    color: white !important;
+    justify-content: space-between;
+
+}
+.footer-link a{
+    color: white !important;
+    font-size: 20px ;
+    transition: 0.5s;
+}
+.footer-link a:hover{
+    color: #EBA219 !important;
+}
+.fa-facebook-f{
+   color: white !important;
+}
+.fa-instagram{
+    color: white;
+}
+.fa-twitter{
+    color: white !important;
+}
+.fa-map-location-dot{
+    color: white !important;
+    transition: 0.5s;
+}
+.footer-icons{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30%;
+}
+.footer-icons .fa-brands{
+    transition: 0.5s;
+}
+.footer-icons .fa-brands:hover{
+ cursor: pointer;
+ color: #EBA219 !important;
+}
+.fa-map-location-dot:hover{
+    cursor: pointer;
+    color: #EBA219 !important;
+}
+.footer-end{
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+}
+.footer-end p{
+    color: white;
+   }
