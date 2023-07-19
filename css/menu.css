@@ -4,3 +4,10 @@
 .menu{
     object-fit: cover;
 }
+i{
+    color: #FFAB01;
+    
+}
+p{
+    margin-left: 20px;
+}
