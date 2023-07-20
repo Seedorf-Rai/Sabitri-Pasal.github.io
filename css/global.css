@@ -128,3 +128,13 @@ a{
 .footer-end p{
     color: white;
    }
+@media (max-width: 500px){
+    .footer-icons{
+        position: relative;
+        right: 30%;
+        margin-top: 7%;
+    }
+    .footer-link{
+        margin-top: 4%;
+    }
+}

@@ -403,3 +403,37 @@ transition: .5s;
     padding: 2rem 2.7rem;
     border-radius: 15px;
 }
+@media (max-width: 500px){
+    .hero1 , .hero2 , .hero3{
+        font-size: 50px;
+    }
+    .hero-img{
+        position: relative;
+        left: -1%;
+    }
+    .your-class{
+        width: 80%;
+        position: relative;
+        left: 10%;
+    }
+  .food-box{
+    margin-top: 2%;
+    margin-bottom: 6%;
+  }
+
+}
+@media (min-width: 300px) and (max-width:400px){
+    .hero1 , .hero2 , .hero3{
+        font-size: 45px;
+    }
+    .item-card{
+        margin-left: 10%;
+        /* margin-right: 3%; */
+    }
+
+}
+@media (min-width: 300px) and (max-width:400px){
+    .rating h1{
+        font-size: 20px;
+    }
+}
