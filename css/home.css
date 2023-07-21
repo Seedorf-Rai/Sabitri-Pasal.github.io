@@ -420,7 +420,52 @@ transition: .5s;
     margin-top: 2%;
     margin-bottom: 6%;
   }
+  .menu-img{
+    width: 230px;
+    height: 220px !important;
+  }
+  .menu-card-1{
+   width: 250px;
+   height: 300px;
 
+  }
+  .menu-card-2{
+    width: 250px;
+    height: 300px;
+
+   }
+   .menu-card-3{
+    width: 250px;
+    height: 300px;
+    position: relative;
+    top: 40%;
+   }
+   .menu{
+    height: 140vh;
+   }
+   .customer-head{
+    display: block;
+    font-size: 1.7rem;
+   }
+   .feed-card-1{
+    margin-bottom: 30px;
+   }
+
+}
+@media (max-height:850px){
+    .menu{
+        height: 150vh;
+       }
+}
+@media (max-height:800px){
+    .menu{
+        height: 170vh;
+       }
+}
+@media (max-height:700px){
+    .menu{
+        height: 200vh;
+       }
 }
 @media (min-width: 300px) and (max-width:400px){
     .hero1 , .hero2 , .hero3{

@@ -36,3 +36,13 @@ p{
     padding: 2rem 2.7rem;
     border-radius: 15px;
 }
+@media (max-width:500px){
+    .customer-head{
+        font-size: 1.5rem !important;
+        display: block;
+    }
+    .feed-card-1{
+        margin-bottom: 25px;
+        /* line-height: 40px; */
+    }
+}
