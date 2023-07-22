@@ -440,9 +440,7 @@ transition: .5s;
     position: relative;
     top: 40%;
    }
-   .menu{
-    height: 140vh;
-   }
+  
    .customer-head{
     display: block;
     font-size: 1.7rem;
@@ -452,7 +450,16 @@ transition: .5s;
    }
 
 }
-@media (max-height:850px){
+@media (min-width:360px) and (max-width:414px) {
+    .menu{
+       height: auto;
+       }
+       .menu-card-3{
+       position: none;
+       }
+}
+
+ /* @media (max-height:850px){
     .menu{
         height: 150vh;
        }
@@ -466,7 +473,7 @@ transition: .5s;
     .menu{
         height: 200vh;
        }
-}
+} */
 @media (min-width: 300px) and (max-width:400px){
     .hero1 , .hero2 , .hero3{
         font-size: 45px;
