@@ -6,8 +6,14 @@
 }
 i{
     color: #FFAB01;
-    
+
 }
 p{
     margin-left: 20px;
+}
+.calc-box{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
 }
