@@ -40,6 +40,7 @@ createTd1.appendChild(createSel)
 const createNum = document.createElement('input');
 createNum.setAttribute('type', 'number');
 createNum.setAttribute('min', '1');
+createNum.setAttribute('value', '1');
 
 createTd2.appendChild(createNum)
 
